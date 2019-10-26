@@ -37,7 +37,7 @@ function PostShow (props){
             props.dispatch(startToShowComments(id))
     
    
-        console.log(this.props)
+        
         return (
             <div>
                 <h2>{props.post.title}</h2>
